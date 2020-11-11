@@ -1,0 +1,1 @@
+(()=>{chrome.storage.local.get(null,(t=>{for(const[e,o]of Object.entries(t))window.localStorage.setItem(e,o)}));let t=document.createElement("script");t.setAttribute("data-something","uculista"),t.setAttribute("type","module"),t.setAttribute("src",chrome.extension.getURL("dist/module.bundle.js")),document.body.appendChild(t)})();

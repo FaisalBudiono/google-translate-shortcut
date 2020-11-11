@@ -1,0 +1,27 @@
+{
+  "name": "final",
+  "version": "1.0.0",
+  "description": "~~This is a chrome extention for embedding shorcuts to google translate~~ **COMING SOON**",
+  "scripts": {
+    "build": "webpack --mode=production",
+    "dev": "webpack --mode=development --devtool=inline-source-map",
+    "watch": "webpack --mode=development --devtool=inline-source-map --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FaisalBudiono/google-translate-shortcut.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/FaisalBudiono/google-translate-shortcut/issues"
+  },
+  "homepage": "https://github.com/FaisalBudiono/google-translate-shortcut#readme",
+  "devDependencies": {
+    "@types/chrome": "0.0.126",
+    "@types/webpack": "^4.41.24",
+    "webpack": "^5.4.0",
+    "webpack-cli": "^4.2.0"
+  }
+}

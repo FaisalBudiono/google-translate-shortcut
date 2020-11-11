@@ -1,0 +1,1 @@
+(()=>{"use strict";const t=JSON.parse('{"clear":"alt+shift+d","focus":"alt+shift+f","source-auto":"alt+`","source-1":"alt+1","source-2":"alt+2","source-3":"alt+3","target-1":"alt+shift+!","target-2":"alt+shift+@","target-3":"alt+shift+#"}');chrome.runtime.onInstalled.addListener((()=>{chrome.storage.local.set(t,(()=>console.log("Set default key")))}))})();

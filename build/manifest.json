@@ -1,0 +1,31 @@
+{
+  "name": "Google Translate Shortcut",
+  "version": "1.00",
+  "description": "",
+  "manifest_version": 2,
+  "permissions": [
+    "storage",
+    "activeTab"
+  ],
+  "background": {
+    "scripts": ["dist/background.bundle.js"],
+    "persistent": false
+  },
+  "content_scripts": [
+    {
+      "matches": ["*://translate.google.com/*"],
+      "js": ["dist/injector.bundle.js"]
+    }
+  ],
+  "web_accessible_resources": [
+    "dist/module.bundle.js"
+  ],
+  "icons": {
+    "16": "images/logo16.png",
+    "32": "images/logo32.png",
+    "48": "images/logo48.png",
+    "128": "images/logo128.png"
+  },
+  "author": "Faisal Ramadhan Budiono",
+  "version_name": "Beta 1.0"
+}
